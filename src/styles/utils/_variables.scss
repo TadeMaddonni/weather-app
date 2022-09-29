@@ -1,0 +1,24 @@
+/*  Colors */
+$background-color: rgb(24, 23, 68);
+$font-color: #fff;
+$secondary-color: rgb(153, 164, 214);
+$title-color: rgb(143, 148, 197);
+
+/* Font sizes */
+@mixin DesktopText {
+    font-size: 25px;
+    line-height: 25px;
+    color: $title-color;
+}
+
+@mixin DesktopSubtitle {
+    font-size: 30px;
+    line-height: 30px;
+    color: $font-color;
+}
+
+@mixin DesktopTitle {
+    font-size: 70px;
+    line-height: 80px;
+    color: $title-color;
+}

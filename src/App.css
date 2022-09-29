@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Utils */
+/*  Colors */
+/* Font sizes */
+body {
+  background-color: rgb(24, 23, 68);
+  font-family: "Yeseva One", cursive;
+}
+
+.appContainer {
+  padding: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  min-height: 700px;
+}
+
+.formContainer {
+  padding: 20px 50px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.formInput {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(24, 23, 68);
+  color: #fff;
+}
+.formInput::placeholder {
+  color: #fff;
+}
+
+.formBtn {
+  padding: 10px 20px;
+  background-color: rgb(24, 23, 68);
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.weatherInfoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 50px;
+}
+
+.weatherPlace {
+  font-size: 70px;
+  line-height: 80px;
+  color: rgb(143, 148, 197);
+  margin-block: 60px;
+  text-align: center;
+}
+
+.weatherError {
+  font-size: 25px;
+  line-height: 25px;
+  color: rgb(143, 148, 197);
+  text-align: center;
+}
+
+.infoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 60px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataTitles {
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.dataDesc {
+  font-size: 25px;
+  line-height: 25px;
+  color: rgb(143, 148, 197);
+  text-align: center;
+}
+
+/*# sourceMappingURL=app.css.map */
